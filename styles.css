@@ -1,21 +1,15 @@
 
 /* Your CSS Code here. */
 
-* {
-    margin: 10px 0;
-}
-
-.free {
+.holder{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
+    flex-wrap: wrap;
 }
-
-.free .rand {
-
-    color: black;
-    background-color: #f8fffe;
+.box{
     width: 200px;
-    height: 150px;
+    height: 200px;
+    background-color: limegreen;
+    text-align: center;    
+    line-height: 200px;
 }
